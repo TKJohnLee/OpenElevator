@@ -1,0 +1,17 @@
+[
+    {
+        "command": "C:\\Users\\L\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-as.exe -o .pio\\build\\genericSTM32F103VB\\FrameworkCMSIS\\gcc\\startup_stm32f103xb.o C:\\Users\\L\\.platformio\\packages\\framework-cmsis-stm32f1\\Source\\Templates\\gcc\\startup_stm32f103xb.S",
+        "directory": "C:\\Users\\L\\Documents\\PlatformIO\\Projects\\OpenElevator",
+        "file": "C:\\Users\\L\\.platformio\\packages\\framework-cmsis-stm32f1\\Source\\Templates\\gcc\\startup_stm32f103xb.S"
+    },
+    {
+        "command": "C:\\Users\\L\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\genericSTM32F103VB\\FrameworkCMSIS\\system_stm32f1xx.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -DPLATFORMIO=60002 -DSTM32F103xB -DSTM32F1 -DF_CPU=72000000L -IC:\\Users\\L\\.platformio\\packages\\framework-cmsis\\CMSIS\\Include -IC:\\Users\\L\\.platformio\\packages\\framework-cmsis-stm32f1\\Include C:\\Users\\L\\.platformio\\packages\\framework-cmsis-stm32f1\\Source\\Templates\\system_stm32f1xx.c",
+        "directory": "C:\\Users\\L\\Documents\\PlatformIO\\Projects\\OpenElevator",
+        "file": "C:\\Users\\L\\.platformio\\packages\\framework-cmsis-stm32f1\\Source\\Templates\\system_stm32f1xx.c"
+    },
+    {
+        "command": "C:\\Users\\L\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\genericSTM32F103VB\\src\\main.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -DPLATFORMIO=60002 -DSTM32F103xB -DSTM32F1 -DF_CPU=72000000L -Iinclude -Isrc -IC:\\Users\\L\\.platformio\\packages\\framework-cmsis\\CMSIS\\Include -IC:\\Users\\L\\.platformio\\packages\\framework-cmsis-stm32f1\\Include src\\main.c",
+        "directory": "C:\\Users\\L\\Documents\\PlatformIO\\Projects\\OpenElevator",
+        "file": "C:\\Users\\L\\Documents\\PlatformIO\\Projects\\OpenElevator\\src\\main.c"
+    }
+]
